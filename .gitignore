@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Virtual environments
+venv/
+.venv/
+
+# Local/editor files
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+
+# Generated runtime artifacts
+.dist/
+reports/
+*.png
+data/*.csv
+data/*.npy
+models/*.keras
+models/*.h5
+models/*.save
+models/*.json
+
+# Keep directories available in fresh clones
+!data/.gitkeep
+!models/.gitkeep
+
